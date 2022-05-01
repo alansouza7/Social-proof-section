@@ -13,7 +13,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: hsl(300, 24%, 96%);
+    background: url(images/bg-pattern-top-mobile.svg) center center no-repeat;
 }
 
 main {
@@ -23,7 +23,6 @@ main {
     grid-template-columns: (3, 1fr);
     font-size: 1.6rem;
     font-family: 'League Spartan';
-    background-color: hsl(0, 0%, 100%);
     padding: 10px 90px 10px 90px;
     border-radius: 5px;
 }
