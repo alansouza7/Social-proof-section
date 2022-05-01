@@ -1,0 +1,42 @@
+@media(max-width:1000px){
+  
+    main {
+        max-width: fit-content;
+        max-height: max-content;
+    }
+  
+    .top-container{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .rating-box {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 0;
+  }
+
+  .top-container .item {
+      margin-bottom: 20px;
+  }
+
+  .top-container .rating-reviews{
+      right: 0%;
+  }
+
+  .top-container .rating-guru{
+      right: 0%;
+  }
+
+  .below-container .second-comment {
+      margin: 15px 20px 0 20px;
+  }
+
+  .below-container .third-comment{
+      top: 0%;
+}
+
+}
